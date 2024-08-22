@@ -6,6 +6,7 @@
 # sfdx shane:org:create -f config/snapshot-scratch-def.json -d 30 -s --wait 60 --userprefix einstein -o gpt.demo
 
 #sfdx shane:org:create -f config/partner-scratch-def.json -d 30 -s --wait 60 --userprefix einstein -o gpt.demo
+sleep 60
 
 npm install
 node run.js
